@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --primary-color:#6C25FF;
+  --secondary-color:#6C25FF4B;
+  --secondary-black:#a3a2a2;
+  --light-black:#CBCBCB;
+}
+html,body{
+  overflow-x: hidden;
+}
+.App{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.App #index-button button{
+  width: 5rem;
+  margin: auto 5px;
+  padding: 5px;
+}
